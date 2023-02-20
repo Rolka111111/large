@@ -16,7 +16,7 @@ MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 
 # Link Hosting Kalian
-wisnuvpn="raw.githubusercontent.com/inoyaksorojawi/large/sae/shadowsocks"
+wisnuvpn="raw.githubusercontent.com/Rolka111111/large/sae/shadowsocks"
 
 source /etc/os-release
 OS=$ID
