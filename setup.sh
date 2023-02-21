@@ -83,8 +83,11 @@ rm -f /root/python.sh
 rm -f /root/ohp.sh
 cat <<EOF> /etc/systemd/system/autosett.service
 [Unit]
-Description=autosetting
-Documentation=https://t.me/zerossl
+#Description=autosetting
+#Documentation=https://t.me/zerossl
+Description=Xray Service
+Documentation=https://github.com/xtls
+After=network.target nss-lookup.target
 
 [Service]
 Type=oneshot
